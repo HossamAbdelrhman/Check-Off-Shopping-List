@@ -15,6 +15,7 @@
         </header>
         <section class="section-1">
             <div class="to-buy list" ng-controller="toBuyController as toBuy">
+                <label><b>to buy</b></label>
                 <ul class="items-list">
                     <li ng-repeat="item in toBuy.items">
                         <div>Buy {{item.quantity}} {{item.name}}</div>
@@ -26,6 +27,7 @@
                 </div>
             </div>
             <div class="already-bought list" ng-controller="alreadyBoughtController as alreadyBought">
+                <label><b>already bought</b></label>
                 <ul class="items-list">
                     <li ng-repeat="item in alreadyBought.items">
                         <div>Bought {{item.quantity}} {{item.name}}</div>

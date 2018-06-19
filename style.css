@@ -33,6 +33,11 @@ header{
     border: 1px solid black;
 }
 
+label{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
 ul li{
     display: flex;
     flex-flow: row wrap;
